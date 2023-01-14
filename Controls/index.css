@@ -1,0 +1,58 @@
+html,body{
+    height: 85%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#remote
+{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    background-color: black;
+    height: 80%;
+    width: 20%;
+    box-sizing: border-box;
+    padding:10px;    
+}
+button{
+    height: 70px;
+    width: 48%;
+    border: none;
+    background-color: rgb(85, 84, 84);
+    color:white;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.source
+{
+    width: 32%;
+    height: 10%;
+}
+#up,#down
+{
+    width: 100%;
+}
+#left,#ok,#right
+{
+    width: 32%;
+}
+#freeze
+{
+    height: 10%;
+    width: 100%;
+}
+#power
+{
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+    width: 100%;
+}
+button:hover{
+    background-color: rgb(100, 98, 98);
+}
+#power:hover
+{
+    background-color: rgb(249, 81, 81);
+}

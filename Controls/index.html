@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IR Remote</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="remote">
+        <button id="power" onclick="SendHexCode('0xC1AA09F6')">On/Off</button>
+        <button class="source" id="Computer" onclick="SendHexCode('0xC1AA29D6')">Computer</button>
+        <button class="source" id="HDMI/Video" onclick="SendHexCode('0xC1AA0EF1')">HDMI/Video</button>
+        <button class="source" id="USB" onclick="SendHexCode('0xC1AA6E91')">USB</button>
+        
+        <button id="up" onclick="SendHexCode('0xC1AA0DF2')">↑</button>
+        <button id="left" onclick="SendHexCode('0xC1AACD32')">←</button>
+        <button id="ok" onclick="SendHexCode('0xC1AAA15E')">OK</button>
+        <button id="right" onclick="SendHexCode('0xC1AA8D72')">→</button>
+        <button id="down" onclick="SendHexCode('0xC1AA4DB2')">↓</button>
+
+        <button id="freeze" onclick="SendHexCode('0xC1AA49B6')">Freeze</button>
+    </div>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
